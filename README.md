@@ -1,5 +1,5 @@
 # move_structure
-Table Representation of runs-compressed BWT supporting backwards stepping
+Table representation of runs-compressed BWT supporting backwards stepping.
 
 # Example
 ### Download and Compile
