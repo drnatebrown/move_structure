@@ -18,15 +18,16 @@ make debug
 ```
 
 ### Build
-Builds the data structure on the given \[FILENAME\].bwt, outputting \[FILENAME\].LF_move
+The data folder holds two example files, ``dna.txt.bwt`` and ``dna.txt.bwt``
+
+Builds the data structure on the given ``[FILENAME].bwt``, outputting ``[FILENAME].LF_move``
 ```console
 ./build ./data/dna.txt
 ```
 
 ### Inversion
-Pass <FILENAME> (assuming build has been run) and \[INVERT_FILENAME\]
+Pass ``[FILENAME]`` (assuming build has been run) and ``[INVERT_FILENAME]``
 
-To give the pattern explicitly, i.e. `"GATTACAT"`:
 ```console
 ./invert ./data/dna.txt ./data/dna.txt.rev
 ```
