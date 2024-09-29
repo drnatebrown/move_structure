@@ -1,5 +1,5 @@
 # move_structure
-Table Representation of runs-compressed BWT Supporting Backwards Stepping
+Table Representation of runs-compressed BWT supporting backwards stepping
 
 # Example
 ### Download and Compile
@@ -18,7 +18,7 @@ make debug
 ```
 
 ### Build
-The data folder holds two example files, ``dna.txt.bwt`` and ``dna.txt.bwt``
+The data folder holds two example files, ``dna.txt`` and ``dna.txt.bwt``
 
 Builds the data structure on the given ``[FILENAME].bwt``, outputting ``[FILENAME].LF_move``
 ```console
@@ -38,7 +38,7 @@ rev dna.txt.rev | diff - dna.txt
 ```
 
 # Config
-The include/LF_table.hpp file contains define statements to adjust the size of the data structure:
+The ``include/LF_table.hpp`` file contains define statements to adjust the size of the data structure:
 ```console
 #define LENGTH_BYTES 4
 #define POINTER_BYTES 2
