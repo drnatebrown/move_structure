@@ -35,3 +35,13 @@ To verify correctness:
 ```console
 rev dna.txt.rev | diff - dna.txt
 ```
+
+# Config
+The include/LF_table.hpp file contains define statements to adjust the size of the data structure:
+```console
+#define LENGTH_BYTES 4
+#define POINTER_BYTES 2
+#define OFFSET_BYTES 2
+```
+
+Note that overflow errors may occur, so these should be adjusted for use case.
